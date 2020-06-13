@@ -8,7 +8,7 @@ function onSubmit(e){
 let passwordInput = document.getElementById('password').value;
 let emailInput = document.getElementById('email').value;
 let msg = document.querySelector('.msg');
-
+// testing
 
     if(passwordInput ===''|| emailInput ===''){
         msg.classList.add('error'); 
